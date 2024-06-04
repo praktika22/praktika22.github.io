@@ -39,3 +39,23 @@
             width: 100%; 
             text-align: left;
 }
+.head {
+            text-align: center;
+}
+.h1 {
+            width: 100%; 
+            text-align: left;
+}
+.h3 {
+            width: 100%; 
+            text-align: left;
+.h4 {
+            width: 100%; 
+            text-align: left;    
+}
+.img {
+            float: left; 
+}
+.photo {
+            float: left;
+}
