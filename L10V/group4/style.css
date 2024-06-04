@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: src="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700";
+}
+body{
+  body {
+    background:  #fff;
+    margin: 0;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+ 
+  #backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+  }
+
+  [show-background-image] #backgroundImage {
+    visibility: visible;
+  }
+}
+ .container {
+  color: #fff;
+      display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+}
+button {
+  display:block;
+  position: relative;
+  background-color: #17390A;
+  border: 20px ;
+  border-radius: 12px;
+  color:#fff;
+  padding: 32px ;
+  margin: 0 auto;
+  width: 344px;
+  height: auto ;
+  text-align: center;
+  font-size: 16px;
+}
+.karta {
+  box-align: rigth; 
+  width: 30%; 
+  height: 30%;
+  margin-right: 50px;
+  margin-left: 20px;
+ }
+.wrapper {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: 100px;
+background-image: url(https://ukraine.ua/wp-content/uploads/2020/09/Lviv-panoramic-view.Patteran.shutterstock-1536x1017.jpg)
+}
+.box1 {
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.box2 {
+grid-column: 1/4;
+grid-row:
