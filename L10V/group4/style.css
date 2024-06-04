@@ -3,57 +3,58 @@ html {
   width: 100%;
   font-family: src="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700";
 }
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
 body{
   body {
     background:  #fff;
     margin: 0;
   }
+  h1{
+    text-align: center;
+     color:#17390A;
   h2{
     text-align: center;
   }
   h3{
     text-align: center;
-  }
  
-  #backgroundImage {
-    border: none;
-    height: 100%;
-    pointer-events: none;
-    position: fixed;
-    top: 0;
-    visibility: hidden;
-    width: 100%;
-  }
-
-  [show-background-image] #backgroundImage {
-    visibility: visible;
-  }
 }
  .container {
   color: #fff;
+   background-color: #17390A;
       display: flex;
        flex-direction: row;
        justify-content: center;
        align-items: center;
 }
+    a{
+       color:#17390A;
+    }
 button {
-  display:block;
-  position: relative;
   background-color: #17390A;
-  border: 20px ;
-  border-radius: 12px;
-  color:#fff;
-  padding: 32px ;
-  margin: 0 auto;
-  width: 344px;
-  height: auto ;
+  border: none;
+  color: white;
+  padding: 20px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
 }
 .karta {
   box-align: rigth; 
   width: 30%; 
   height: 30%;
+    margin-top :50px ;
+    margin-bottom :50px ;
   margin-right: 50px;
   margin-left: 20px;
  }
