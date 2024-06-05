@@ -1,6 +1,12 @@
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 @font-face {
-font-family: Gabriela; /* Ім&#39;я шрифту */
-src: url(fonts/Gabriela-Regular.ttf); /* Шлях до файлу зі шрифтом */
+font-family: Gabriela;
+src: url(fonts/Gabriela-Regular.ttf);
 }
 .invisible {
     color: rgba(255, 255, 255, 0.5); 
