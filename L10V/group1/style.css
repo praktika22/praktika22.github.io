@@ -93,6 +93,25 @@ body{ background: linear-gradient(to top,#4E729B, #D1EAFB);}
 
 .card4:hover{ width: 200px;
              height:200px;}
+
+.card5{
+  width: 80%;
+  height:40%;
+  padding:30px;
+  margin:20px;
+  background: white;
+  border-radius:50px;
+  box-shadow: inset 0 0 10px #796DBE, 2px 5px 10px #796DBE;
+  overflow: hidden;
+  box-sizing:border-box;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  }
+
+
 h1{
   text-align:center;
   color:white;
@@ -113,6 +132,12 @@ p{
   text-align:center;
   font-family: "Yeseva One", serif;
 }
+.p2{
+  color:#5A3F87;
+  vertical-align: middle;
+  text-align:left;
+  font-family: "Yeseva One", serif;
+}
 ul{
   color:#5A3F87;
   font-weight: bold;
@@ -123,12 +148,23 @@ ul{
   padding: 25px;
 }
 
+оl{
+  color:#5A3F87;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align:left;
+  font-family: "Yeseva One", serif;
+  
+}
+
 
 a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   text-align: center;}
+a:hover{ color:#4e729b;}
+
 .ah{
   color:#5A3F87 ;
   text-decoration: none;
@@ -214,6 +250,57 @@ a {
   width: 100%;
   margin: 20% 0 0 25%;
 }
+ 
+.item_8{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  position: absolute;
+  
+}
+
+.item_9{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item_10{
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin: 5% 0 0 30%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+ 
+}
+
+.item_11{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  position: absolute;
+  
+  
+}
+.item_12{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  justify-content: center;
+   margin: 12% 0 0 0%;
+  height: 40%;
+  width: 70%;
+}
+
 
 #tw{height: 100%;
    width: 80%;
@@ -387,19 +474,7 @@ li:before{color: #5A3F87;
              height:200px;}
 
 .ter6{
-  grid-column-start: 5;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  display: flex;
-  justify-content: center;
-  height: 40%;
-  width: 100%;
-  margin: 20% 0 0 25%;
-}
-
-.ter7{
-  grid-column-start: 3;
+  grid-column-start: 7;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 1;
@@ -407,5 +482,22 @@ li:before{color: #5A3F87;
   justify-content: center;
   height: 40%;
   width: 100%;
-  margin: 20% 0 0 25%;
+  margin: 0 0 0 0;
+}
+
+.ter7{
+  grid-column-start: 7;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  margin: 300px -400px -200px 120px;
+}
+
+#mapmax{
+  height: 100%;
+  width: 80%;
 }
