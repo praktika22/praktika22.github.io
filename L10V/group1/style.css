@@ -4,6 +4,9 @@ html {
 }
 
 body{ background: linear-gradient(to top,#4E729B, #D1EAFB);}
+.box{ width: 50%;
+  height:40px;
+  }
 
 .card00{
   width: 200px;
@@ -45,6 +48,8 @@ body{ background: linear-gradient(to top,#4E729B, #D1EAFB);}
   border-radius:10px;
   box-shadow: inset 0 0 10px #796DBE, 2px 5px 10px #796DBE;
   box-sizing:border-box;
+  position: relative;
+
 }
 .card2{
   width: 450px;
@@ -56,7 +61,7 @@ body{ background: linear-gradient(to top,#4E729B, #D1EAFB);}
   border-radius:10px;
   box-shadow: inset 0 0 10px #796DBE, 2px 5px 10px #796DBE;
   box-sizing:border-box;
-  margin: 110px 0 0 0;
+  margin: 60px 0 0 0;
 }
 
 .card3{
@@ -85,29 +90,39 @@ body{ background: linear-gradient(to top,#4E729B, #D1EAFB);}
   justify-content: center;
   transition: 1s;
 }
+
 .card4:hover{ width: 200px;
              height:200px;}
 h1{
   text-align:center;
   color:white;
   text-shadow: 2px 5px 10px black;
+  font-family: "Arsenal", sans-serif;
 }
-h2{
+.zg{font-size: 42px;}
+
+.zg,h2{
   text-align:center;
   color:white;
   text-shadow: 2px 5px 10px black;
+  font-family: "Ruslan Display", sans-serif;
 }
 p{
   color:#5A3F87;
-  font-weight: bold;
-vertical-align: middle;
+  vertical-align: middle;
   text-align:center;
-  
+  font-family: "Yeseva One", serif;
+}
+ul{
+  color:#5A3F87;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align:left;
+  font-family: "Yeseva One", serif;
+  font-size: 30px;
+  padding: 25px;
 }
 
-.photo3{
-  
-}
 
 a {
   color: white;
@@ -143,7 +158,7 @@ a {
 .item,.ter{
   padding: 10px;
   border: 1px solid black;
-  
+
 }
 
 
@@ -168,8 +183,36 @@ a {
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 4;
-   margin: -90px 0 0 -60px;
-  
+  margin: -90px 0 0 -60px;
+
+}
+.item_5{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  height: 20%
+
+
+}
+.item_6{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  margin: 5% 0 0 10%;
+  height: 90%;
+  width: 90%;
+}
+
+
+.item_7{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  margin: 20% 0 0 25%;
 }
 
 #tw{height: 100%;
@@ -219,11 +262,11 @@ a {
 }
 
 .ter4{
-  grid-column-start: 5;
-  grid-column-end: 5;
+  grid-column-start: 6;
+  grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 3;
-  margin: -100px 0 100px 0;
+  margin: -50px 0 0 0;
 }
 
 .ter5{
@@ -231,7 +274,7 @@ a {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
-  margin: 0 0 0 0;
+  margin: 130px 200px 0 0;
 } 
 
 
@@ -247,6 +290,23 @@ a {
   top: 500px;
 }
 
+.cr4 {
+  position:relative ;
+  left: 1000px;
+  top: 600px;
+}
+.cr5 {
+  position:relative ;
+
+  top: 900px;
+}
+
+.img_2 {
+  position:absolute;
+  left: 886px;
+  top: 60px;
+}
+
 
 .p1{
   color:#5A3F87;
@@ -254,9 +314,98 @@ a {
   vertical-align: middle;
   text-align: left;
   font-size: 30px;
+  font-family: "Yeseva One", serif;
 }
 li{
   list-style-type: none;
 }
 li:before{color: #5A3F87;
          content:"●" }
+
+#hl{position: absolute;
+   bottom: 0;
+   right: 0;}
+
+#map{position: absolute;
+     height: 25%;
+     width: 35%;
+     margin: -2% 0 0 55%;
+    }
+#btm{height: 60%;
+     width: 70%;}
+
+#btmw{height: 60%;
+   width: 60%;}
+
+
+
+
+
+
+
+
+.card4_{
+  width: 180px;
+  height:180px;
+  padding:10px;
+  margin-left:700px;
+  margin-top: 70px;
+  background: white;
+  border-radius:50px;
+  box-shadow: inset 0 0 10px #796DBE, 2px 5px 10px #796DBE;
+  overflow: hidden;
+  box-sizing:border-box;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+.card4_:hover{ width: 200px;
+             height:200px;}
+
+.card4_1{
+  width: 180px;
+  height:180px;
+  padding:10px;
+  margin-left:700px;
+  margin-top: 150px;
+  background: white;
+  border-radius:50px;
+  box-shadow: inset 0 0 10px #796DBE, 2px 5px 10px #796DBE;
+  overflow: hidden;
+  box-sizing:border-box;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+.card4_1:hover{ width: 200px;
+             height:200px;}
+
+.ter6{
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  margin: 20% 0 0 25%;
+}
+
+.ter7{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  margin: 20% 0 0 25%;
+}
