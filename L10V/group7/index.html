@@ -6,38 +6,79 @@
   <title>Л10В. Група 7</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
+    menu{
+        padding: 20px;
+        text-align: center;
+    }
+    a {
+       text-decoration:none;
+    }
+    column:hover {
+            background:linear-gradient(45deg, #9F015E, #F9C929);
+            background-size:500% 500%;
+            animation: color 5s infinite;
+    }
+    h0{
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    column {
+            display:flex;
+            justify-content: center;
+    }
+    forzes{
+        color:rgba 0;
+        text-align:center;
+        padding:10px 0;
+        position:static;
+        width:100%;
+        bottom:0;
+    }
+    text {
+        font-family:"Great Vibes", cursive;
+        font-style:normal;
+    }
     body {
-      background: linear-gradient(45deg, #FFFFFF, #ADD8E6, #0000FF, #00008b);
-      background-size: 400% 400%;
+      margin: 0;
+      padding: 0;
+      background:linear-gradient(45deg, #9F015E, #F9C929);
+      background-size:500% 500%;
       animation: color 8s infinite;
     }
+
     @keyframes color {
       0% {
-        background-position: 0 50%;
+        background-position:0 50%;
       }
       25% {
-        background-position: 100% 50%;
+        background-position:100% 50%;
       }
       50% {
-        background-position: 0 50%;
+        background-position:0 50%;
       }
       100% {
-        background-position: 0 50%;
+        background-position:0 50%;
       }
     }
   </style>
 </head>
 
 <body>
-  <h1 style="text-align:center">Туристичний довідник</h1>
-  <p style="text-align:center">Туристичний об'єкт - Донецька область</p>
-  <h2 style="text-align:center"><b>КОРОТКІ ДОВІДКИ ПРО ДОНЕЦЬКУ ОБЛАСТЬ</b></h2>
-  <div class="text">
-  <h1><a style="color: #808080" href="O.html">Загальна інформація</a> <a style="color: #808080" href="B.html">Історико-культурні пам'ятки</a> <a style="color: #808080" href="S.html">Природно-географічні пам'ятки</a></h1>
-  </div>
-  <script src="script.js"></script>
-<footer>
-    <p class="invisible">&copy; Авторське право Групи 7</p>
-</footer>
+  <menu>
+       <h1>Головна частина про довідки Донецької області</h1>
+       <h1>Вітаю вас на нашому сайті!</h1>
+       <p>На цій сторінці ви маєте можливість ознайомитись із інформацією про Донецьку область! Наша команда сподівається, що інформація допоможе вам у майбутньому на вивчення чогось нового.</p>
+       <h2>Головні посилання нашого сайту</h2>
+  </menu>
+  <text>
+      <column><h0><a href="https://cyqsfkpwlu-2435342316-a.codehs.me/index.html">Загальна інформація</a></h0></column>
+      <column><h0><a href="B.html">Історико-культурні пам'ятки</a></h0></column>
+      <column><h0><a href="https://cyqsfkpwlu-2435342316-a.codehs.me/index.html">Природно-географічні пам'ятки</a></h0></column>
+  </text>
+  
+  <forzes>
+      <p>&copy; Авторське право Групи 7</p>
+  </forzes>
 </body>
 </html>
