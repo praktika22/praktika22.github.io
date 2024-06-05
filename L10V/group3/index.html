@@ -3,52 +3,136 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <style>
-        .card {
-            width: 300px;
-            height: 150px;
-            border: 2px solid #F0F8FF;
-            border-radius: 10px;
-            padding-left: 10px;
-            padding-bottom: 15px;
-            margin-bottom: 30px;
-            background-size: cover;
-            position: relative;
-        }
-        .card img {
-            position: absolute;
-            bottom: 5px;
-            right: 5px;
-            width: 50px;
-            height: 50px;
-        }
-        h3 {
-            color: black;
-            font-size: 22px;
-        }
-    </style>
-</head> 
+</head>
+<style>
+@font-face {
+font-family: "Oswaldh2";
+src: url("./fonts/OSWALD-BOLD.TTF");
+}
+@font-face {
+    font-family: "Caviar";
+    src: url("./fonts/caviardreams.ttf");
+}
+@font-face {
+    font-family: "Oswaldh3";
+    src: url("./fonts/CAVIAR_DREAMS_BOLD.TTF");
+}
+.golovne {
+    width: auto;
+    height: auto;
+    padding-top: 27%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 3px black;
+    margin-bottom: 15px;
+}
+.golovne h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: "Caviar";
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.widget {
+    width: 300px;
+    height: 150px;
+    border: 2px solid #F0F8FF;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    background-size: cover;
+    position: relative;
+    float: left;
+    opacity: 0.85;
+}
+.widget:hover {
+    width: 310px;
+    height: 160px;
+    opacity: 1;
+    transition: 1s;
+}
+.widget img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+}
+h3 {
+    font-family: "Oswaldh3";
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+}
+h2 {
+    font-family: "Oswaldh2";
+    color: black;
+}
+.line {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.line::after {
+    content: "";
+    margin: 0 auto;
+    display: block;
+    width: 35%;
+    height: 1px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+</style>
 <body>
-    <h1>Івано-Франківська область</h1>
-    <br>
-    <div style="background-image: url('https://photos.drymba.com/drb/000/01/195_d9f_ht8hjs.jpg')" class="card">
-        <h3>Загальні відомості</h3>
-        <img src="https://pngimg.com/d/plus_PNG106.png">
+    <div style="background-image: url('https://ogogo.if.ua/wp-content/uploads/2017/02/1.-Vasyl-Nesplyak.jpg')"
+    class="golovne">
+        <h1>Івано-Франківська область - все, що треба знати</h1>
     </div>
-    <div style="background-image: url('https://blog.reikartz.com/media/filer_public/8a/4f/8a4f8838-7d6a-4498-9e0a-4b0ec38fa327/vodopad_probii.jpg')" class="card">
-        <h3>Природно-географічні</h3>
-        <img src="https://pngimg.com/d/plus_PNG106.png">
-    </div>
-    <div style="background-image: url('https://tut-cikavo.com/images/Geographic/jggggggggg.jpg')" class="card">
-        <h3>Історико-культурні</h3>
-        <img src="https://pngimg.com/d/plus_PNG106.png">
+
+    <div class="line"><h2>Пропоную ознайомитись з особливостями цієї області</h2></div>
+
+    <div class="box">
+        <a href=#zag_vidom>
+        <div style="background-image: url('https://photos.drymba.com/drb/000/01/195_d9f_ht8hjs.jpg')" 
+        class="widget">
+            <h3>Загальні відомості</h3>
+            <img src="https://pngimg.com/d/plus_PNG106.png">
+        </div>
+        </a>
+
+        <a href=#pr_geog>
+        <div style="background-image: url('https://blog.reikartz.com/media/filer_public/8a/4f/8a4f8838-7d6a-4498-9e0a-4b0ec38fa327/vodopad_probii.jpg')" 
+        class="widget">
+            <h3>Природно-географічні</h3>
+            <img src="https://pngimg.com/d/plus_PNG106.png">
+        </div>
+        </a>
+
+        <a href=#ist_kylt>
+        <div style="background-image: url('https://tut-cikavo.com/images/Geographic/jggggggggg.jpg')" 
+        class="widget">
+            <h3>Історико-культурні</h3>
+            <img src="https://pngimg.com/d/plus_PNG106.png">
+        </div>
+        </a>
     </div>
 </body>
 </html>
-
-
-
-
 
 
 
