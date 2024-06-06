@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #f8e9a1;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F3CA52;
+  letter-spacing: 2px;
+}
+.logo span {
+  padding: 0 5px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.nav .active {
+  background-color: #F3CA52;
+  border-radius: 5px;
+}
+.carousel-caption h5 {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.under{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.text {
+  margin-right: 20px;
+}
+.castbt{
+  background-color:  #F3CA52;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+  margin: 4px 2px;
+}
+img.rounded-image{
+  height: 400px;
+  width: 600px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
