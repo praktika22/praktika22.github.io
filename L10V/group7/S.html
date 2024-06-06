@@ -7,6 +7,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+    text {
+        font-family:"Great Vibes", cursive;
+        font-style:normal;
+    }
+    a {
+       text-decoration:none;
+    }
+    column:hover {
+            background:linear-gradient(45deg, #9F015E, #F9C929);
+            background-size:500% 500%;
+            animation: color 5s infinite;
+    }
+    column {
+            display:flex;
+            justify-content: center;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background:linear-gradient(45deg, #9F015E, #F9C929);
+      background-size:500% 500%;
+      animation: color 8s infinite;
+    }
+    @keyframes color {
+      0% {
+        background-position:0 50%;
+      }
+      25% {
+        background-position:100% 50%;
+      }
+      50% {
+        background-position:0 50%;
+      }
+      100% {
+        background-position:0 50%;
+      }
+    }
+    </style>
 </head>
 <body>
     <div>
