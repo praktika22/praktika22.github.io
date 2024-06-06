@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: #f8e9a1;
+    background: linear-gradient(to left, #c8a641,#fee495);
 }
 .logo {
   font-size: 24px;
