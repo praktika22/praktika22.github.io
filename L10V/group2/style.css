@@ -32,10 +32,7 @@ body {
   font-size: 18px;
   padding: 5px 10px;
 }
-.nav .active {
-  background-color: #F3CA52;
-  border-radius: 5px;
-}
+
 .carousel-caption h5 {
   font-size: 3rem;
   text-align: left;
@@ -75,4 +72,40 @@ img.rounded-image{
 }
 .reverse {
   flex-direction: row-reverse;
+}
+.nav .but{
+  width: 120px;
+  height: 60px;
+  background-color: #F3CA52;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.but{
+  width: 120px;
+  height: 60px;
+  background-color: #F3CA52;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.nav .but:hover{
+  background: #f5b800;
+  transform: scale(1.1);
+  transition: transform 60ms cubic-bezier(0.07, 0.76, 0.93, 0.59) 0.1s, background 60ms ease-in-out 0.2s;
+}
+.but:hover{
+  background: #f5b800;
+  transform: scale(1.1);
+  transition: transform 60ms cubic-bezier(0.07, 0.76, 0.93, 0.59) 0.1s, background 60ms ease-in-out 0.2s;
+}
+.rounded-image:hover{
+  transform: scale(1.1);
+  transition: transform 60ms cubic-bezier(0.07, 0.76, 0.93, 0.59) 0.4s
 }
