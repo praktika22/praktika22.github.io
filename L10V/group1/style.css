@@ -917,3 +917,59 @@ li:before{color: #5A3F87;
 }  
 
 iframe{margin-left: 5%;}
+
+.t8{
+  position:absolute;
+  left: 660px;
+  top: 2280px;
+}
+.img_b10 {
+  position:absolute;
+  left: 20px;
+  top: 2355px;
+}
+.img_b11 {
+  position:absolute;
+  left: 830px;
+  top: 1998px;
+}
+
+.img_b12 {
+  position:absolute;
+  left: 830px;
+  top: 2925px;
+}
+.img_b13 {
+  position:absolute;
+  left: 20px;
+  top: 3308px;
+}
+.t9{
+  position:absolute;
+  left: 660px;
+  top: 3240px;
+}
+.ull{
+  text-align: center;
+  position:absolute;
+  left: 630px;
+  top: 3720px;
+}
+.ull1{
+  text-align: center;
+  position:absolute;
+  left: 630px;
+  top: 3745px;
+}
+.ull2{
+  text-align: center;
+  position:absolute;
+  left: 630px;
+  top: 3770px;
+}
+.ull3{
+  text-align: center;
+  position:absolute;
+  left: 630px;
+  top: 3795px;
+}
