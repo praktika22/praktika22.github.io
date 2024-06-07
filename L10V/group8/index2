@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>історико-культурні пам'ятки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+  .philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+        .bloc1 {
+          width: 145px;
+          height: 20px;
+          background:lightgray;
+          border-radius: 40px;
+          padding: 20px;
+          text-align: center;
+          float: left;
+          transition: transform 0.3s ease;
+        }
+        .bloc2 {
+          width: 145px;
+          height: 20px;
+          background:lightgray;
+          border-radius: 40px;
+          padding: 20px;
+          margin:auto;
+          text-align: center;
+          float: center;
+          transition: transform 0.3s ease;
+        }
+        .bloc3 {
+          width: 145px;
+          height: 20px;
+          background:lightgray;
+          border-radius: 40px;
+          padding: 20px;
+          margin:auto;
+          text-align: center;
+          float: right;
+          transition: transform 0.3s ease;
+        }
+     .bloc1:hover {
+            transform: scale(1.05); 
+            }
+     .bloc2:hover {
+            transform: scale(1.05); 
+            }
+     .bloc3:hover {
+            transform: scale(1.05); 
+            }
+     h1 {
+      font-weight: bold;
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      font-family: "Philosopher", sans-serif;
+    }
+    p {
+      font-family: "Comfortaa", sans-serif;
+      font-size: 30px;
+      color: white;
+      text-align: center;
+    }
+    .all1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 30px;
+    }
+    .all2{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .card {
+      width: 500px;
+      height: 270px;
+      margin: 30px;
+      border-radius: 40px;
+      box-sizing: border-box;
+      background-image: url('677.jpg');
+      background-size: cover;
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+    .card1 {
+      width: 500px;
+      height: 270px;
+      margin: 30px;
+      border-radius: 40px;
+      box-sizing: border-box;
+      background-image: url('222.jpg');
+      background-size: cover;
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+            transform: scale(1.05); 
+            }
+    .card1:hover {
+            transform: scale(1.05); 
+            }
+    .all{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .round-button {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-image: url('44444.jpg');
+      background-position: center;
+      margin-bottom: 10px;
+    }
+    .button-text {
+      font-family: "Comfortaa", sans-serif;
+      font-size: 16px;
+      color: white;
+    }
+    
+  </style>
+</head>
+ <body style="background-image: url('1 копия.jpg')">
+     <div class="bloc1"><a href="https://new-sandbox-program-1-10304612.codehs.me/index.html" >Загальні відомості</a></div>
+    <div class="bloc3"><a href="https://czzyrgyfna-2424641043-a.codehs.me/index.html" >Поточна</a></div>
+    <div class="bloc2"><a href="https://nbyaifziun-2424640648-a.codehs.me/index.html" >географічні пам'ятки</a></div>
+  <h1>Історико-культурні пам'ятки</h1>
+  <p>Крим має надзвичайно багату культурну спадщину</p>
+  <div class="all1">
+    <div class="all2">
+      <a href="https://uk.wikipedia.org/wiki/%D0%9B%D0%B0%D1%81%D1%82%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B5_%D0%B3%D0%BD%D1%96%D0%B7%D0%B4%D0%BE"class="card" ></a>
+      <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D1%83%D0%B5%D0%B7%D1%8C%D0%BA%D0%B0_%D1%84%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_(%D0%A1%D1%83%D0%B4%D0%B0%D0%BA"class="card1" ></a>
+    </div>
+    <p>Він славиться своїми визначними пам'ятками культури та історії. Ластівчине гніздо — це захоплюючий неоготичний замок, що вражає своєю романтичною архітектурою та панорамними видами на Чорне море. У місті Судак розташована славетна Генуезька фортеця, яка має статус пам'ятки світового значення та приваблює туристів зі всього світу. Крім цього, Крим налічує безліч інших цікавих місць, які важко перелічити</p>
+    <div class="all">
+      <a href="https://ciss.org.ua/ua/kulturna-spadschina-krimu.html" class="round-button"></a>
+      <span class="button-text">Дізнатися більше</span>
+    </div>
+   </div>
+   
+  
+</body>
+</html>
