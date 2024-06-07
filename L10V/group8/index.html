@@ -1,18 +1,147 @@
 
 <!DOCTYPE html>
-<html>
-
+<html lang="uk">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Л10В. Група 8</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-image: url("original.jpg");
+            color: white;
+        }
+        
+        .bloc1 {
+            width: 145px;
+            height: 20px;
+            background: lightgray;
+            border-radius: 40px;
+            padding: 20px;
+            text-align: center;
+            float: left;
+            transition: transform 0.3s ease; 
+        }
+        .bloc1:hover {
+            transform: scale(1.05); 
+        }
+        .bloc2 {
+            width: 145px;
+            height: 20px;
+            background: lightgray;
+            border-radius: 40px;
+            padding: 20px;
+            margin: 0 auto;
+            text-align: center;
+            transition: transform 0.3s ease; 
+        }
+        .bloc2:hover {
+            transform: scale(1.05); 
+        }
+        .bloc3 {
+            width: 145px;
+            height: 20px;
+            background: lightgray;
+            border-radius: 40px;
+            padding: 20px;
+            float: right;
+            text-align: center;
+            transition: transform 0.3s ease; 
+        }
+        .bloc3:hover {
+            transform: scale(1.05); 
+        }
+        
+        .photo {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .card {
+            width: 600px;
+            padding: 20px;
+            margin: 30px auto;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 40px;
+            transition: transform 0.3s ease; 
+        }
+        .card:hover {
+            transform: scale(1.05); 
+        }
+
+        .text {
+            font-size: 28px;
+            font-family: "Comfortaa", sans-serif;
+        }
+        .comfortaa-<uniquifier> {
+            font-family: "Comfortaa", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+        .philosopher-regular {
+            font-family: "Philosopher", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+         .card1 {
+            font-size: 50px;
+            font-family: "Philosopher", sans-serif;
+         }
+         .top img {
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Поточна сторінка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <h1>Туристичний довідник</h1>
-  <p>Туристичний об'єкт - ............</p>
-  <script src="script.js"></script>
-</body>
+    <div id="top" class="bloc1"><a href="https://new-sandbox-program-1-10304612.codehs.me/index.html#top">поточна сторінка</a></div>
+    <div class="bloc3"><a href="https://czzyrgyfna-2424641043-a.codehs.me/index.html">історичні пам'ятки</a></div>
+    <div class="bloc2"><a href="https://nbyaifziun-2424640648-a.codehs.me/index.html">географічні пам'ятки</a></div>
+    
+    <hr>
+    
+    <div class="card">
+        <div class="photo">
+            <img width="550" height="550" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Physical_map_of_the_Crimea_-_RU.jpg" alt="Карта Криму">
+        </div>
+        <h1 class="card1">Крим</h1>
+        <p class="text">Загальні Відомості про Крим: Кримський півострів розташований на півдні України, омивається водами Чорного та Азовського морів. Площа півострова становить приблизно 27 тисяч квадратних кілометрів. Адміністративним центром є місто Сімферополь. На півдні Криму знаходяться Кримські гори, найвищою точкою яких є гора Роман-Кош (1545 м). Населення становить близько 2.4 мільйони людей, а найбільше місто - Севастополь.</p>
+    </div>
 
+    <p>&nbsp;</p>
+
+    <hr>
+    
+    <div class="card">
+        <video width="600" height="600" controls>
+            <source src="https://codehs.com/uploads/dc4ae5f7cf8c6164fba30f568f867fca" type="video/mp4">
+        </video>
+        
+        <p class="text">Крим здавна населяли різні племена та народи: гуни, таври, скіфи, половці, сармати, греки, італійці, українці, росіяни, вірмени, болгари, німці, а також три корінні народи — кримські татари, караїми та кримчаки. Понад 300 років тут процвітало Кримське ханство, яке правило не тільки півостровом, а й територіями Подніпров'я та Приазов'я. Після захоплення Криму російською імператрицею Катериною II та знищення Кримського ханства півострів і Південь України потрапили до складу Російської імперії як єдина губернія — Таврійська.</p>
+    </div>
+    
+    <hr>
+    
+    <div class="card">
+        <div class="photo">
+            <img width="550" height="550" src="https://img.pravda.com/images/doc/1/5/1587d4a-8929--1-.jpg" alt="Кримські татари">
+        </div>
+        <p class="text">У Криму століттями живуть носії унікальної культури, яких називають кримськими татарами або qırımlı. У їхньому генеалогічному дереві — кочові народи Причорномор'я, германське плем'я готів, а також греки та генуезці, які мали колонії у Криму.
+
+Усе це сформувало незвичайну культуру, яку кримські татари пронесли крізь усі випробування — яких, на жаль, було таки багато. Наприклад, аж тричі сотні тисяч корінних жителів півострова були змушені покинути свої домівки через окупації та депортації, які зчиняла влада східного сусіда України. Спершу це сталося ще наприкінці 18 століття, коли Російська імперія атакувала півострів. Вдруге — у 1944, коли Сталін наказав депортувати кримських татар у віддалені райони СРСР — і близько половини народу загинуло. Повернутися вони змогли лише через кілька десятиліть — уже в незалежну і демократичну Україну.</p>
+    </div>
+    
+    <p align="center">
+        <a class="top" href="#top">
+            <img width="100" height="100" src="https://islam.in.ua/sites/default/files/field/image/4c1fe69a4138d997a13622ec813d3c18.760_400.jpg" alt="Повернутися нагору">
+        </a>
+    </p>
+    <h2 style="text-align:center;font-weight:bold;font-size: 20px;color:white">Повернутися нагору</h2>
+    <p>&nbsp;</p>
+    <hr>
+</body>
 </html>
