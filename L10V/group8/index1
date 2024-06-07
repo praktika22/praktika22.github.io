@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Природно-географічні пам'ятки</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+.animate-element {
+    position: relative; 
+    animation: animbox 5s infinite; 
+}
+.title{
+    font-family: "Philosopher", sans-serif;
+}
+.comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.centered {
+    font-family: "Philosopher", sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white; 
+    font-weight: bold;
+}
+.block-text1, .block-text2, .block-text3 {
+    font-family: "Comfortaa", sans-serif;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    margin-top: 20px; 
+    transition: transform 0.3s ease; 
+}
+
+.card-table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+.card-td {
+    text-align: center;
+    position: relative; 
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+  body {
+    background-image: url("677.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.card1, .card2, .card3 {
+    width: 80%; 
+    margin: 30px auto; 
+    padding: 20px;
+    font-size: 25px; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    width: 1400px;
+    height: 270px;
+    padding: 50px; 
+    margin: 60px auto;
+    border-radius: 40px;
+    background-image: url('159.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.round-corners1, .round-corners2, .round-corners3 { 
+    width: 400px;
+    height: 300px; 
+    border-radius: 15%;
+    transition: transform 0.3s ease;
+}
+
+.card-td img:hover {
+    transform: scale(1.05); 
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+    margin: 10px; 
+    font-size: 25px;
+    padding-top: 20px;
+    color: white;
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.all1, .all2, .all3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    transition: transform 0.3s ease; 
+}
+.all1, .all2, .all3 img:hover {
+    transform: scale(1.05); 
+}
+
+.bloc1 { 
+    width: 145px; 
+    height: 20px; 
+    background:lightgray; 
+    border-radius: 40px; 
+    padding: 20px; 
+    text-align: center; 
+    float: left; 
+    transition: transform 0.3s ease; 
+} 
+.bloc2 { 
+    width: 145px; 
+    height: 20px; 
+    background:lightgray; 
+    border-radius: 40px; 
+    padding: 20px; 
+    margin:auto; 
+    text-align: center; 
+    float: center;
+    transition: transform 0.3s ease; 
+} 
+.bloc3 { 
+    width: 145px; 
+    height: 20px; 
+    background:lightgray; 
+    border-radius: 40px; 
+    padding: 20px; 
+    margin:auto; 
+    text-align: center; 
+    float: right;
+    transition: transform 0.3s ease; 
+}
+.bloc1:hover {
+    transform: scale(1.05); 
+}
+.bloc2:hover {
+    transform: scale(1.05); 
+}
+.bloc3:hover {
+    transform: scale(1.05); 
+}
+</style>
+</head>
+<body>
+    <div class="bloc1"><a href="https://new-sandbox-program-10299927.codehs.me/index.html" >Загальні відомості</a></div>
+    <div class="bloc3"><a href="https://czzyrgyfna-2424641043-a.codehs.me/index.html" >Історико-культурні пам'ятки</a></div>
+    <div class="bloc2"><a href="https://nbyaifziun-2424640648-a.codehs.me/index.html" >Поточна сторінка</a></div>
+    <div class="card">
+        <p>&nbsp;</p>
+        <div class="title">Природно-географічні пам'ятки</div>
+        <p>Єдиним містом Криму, що зберегло назву з античного часу, є Феодосія.</p>
+    </div>
+    <table class="card-table">
+        <tr>
+            <td class="card-td">
+                <div class="all1">
+                <div class="centered">Кримський природний заповідник</div>
+                <div class="column-container">
+                    <img src="679.jpg" class="round-corners1">
+                    </div>
+                    <div class="block-text1">Природоохоронна науково-дослідна установа загальнодержавного значення. Це один з найбільших та один з найстарших в Україні заповідників.</div>
+                </div>
+            </td>
+            <td class="card-td">
+                <div class="all2">
+                <div class="centered">Заповідник Мис Мартьян</div>
+                <div class="column-container">
+                    <img src="680.jpg" class="round-corners2">
+                    </div>
+                    <div class="block-text2">Природний заповідник, розташований в Автономній республіці Крим, біля м. Ялта. Заповідник створено з метою збереження у природному стані цінних природних комплексів мису Мартьян, охорони і збереження рідкісних видів рослин і тварин, проведення науково-дослідних робіт.</div>
+                </div>
+            </td>
+            <td class="card-td">
+                <div class="all3">
+                <div class="centered">Карадазький заповідник</div>
+                <div class="column-container">
+                    <img src="681.jpg" class="round-corners3">
+                    </div>
+                    <div class="block-text3">Заповідник, розташований у південно-східній частині Кримського півострова за 36 км на південний захід від Феодосії між Отузькою і Коктебельською долинами, між населеними пунктами Коктебель, Щебетовка, Курортне.</div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
