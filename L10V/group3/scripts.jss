@@ -1,47 +1,54 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var modal = document.getElementById("modal");
-    var modalGeo = document.getElementById("modal-geo");
-    var modalCulture = document.getElementById("modal-culture");
-    var btn = document.getElementById("open-modal");
-    var btnGeo = document.getElementById("open-modal-geo");
-    var btnCulture = document.getElementById("open-modal-culture");
-    var span = document.getElementsByClassName("close");
+    var modals = {
+        "open-modal": {
+            modalId: "modal",
+            contentClass: "content-zag",
+            backgroundColor: "#DCDCDC"
+        },
+        "open-modal-geo": {
+            modalId: "modal-geo",
+            contentClass: "content-geo",
+            backgroundColor: "#FDF5E6"
+        },
+        "open-modal-culture": {
+            modalId: "modal-culture",
+            contentClass: "content-culture",
+            backgroundColor: "#E6E6FA"
+        }
+    };
 
-    btn.onclick = function() {
-        var content = document.querySelector(".content-zag");
-        modal.style.display = "block";
-        content.style.display = "block";
+    for (var key in modals) {
+        if (modals.hasOwnProperty(key)) {
+            document.getElementById(key).onclick = (function(modalSettings) {
+                return function() {
+                    var modal = document.getElementById(modalSettings.modalId);
+                    var content = document.querySelector("." + modalSettings.contentClass);
+                    content.style.backgroundColor = modalSettings.backgroundColor;
+                    modal.classList.add("visible");
+                    content.classList.add("visible");
+                };
+            })(modals[key]);
+        }
     }
 
-    btnGeo.onclick = function() {
-        var contentGeo = document.querySelector(".content-geo");
-        modalGeo.style.display = "block";
-        contentGeo.style.display = "block";
-    }
-
-    btnCulture.onclick = function() {
-        var contentCulture = document.querySelector(".content-culture");
-        modalCulture.style.display = "block";
-        contentCulture.style.display = "block";
-    }
+    var closeButtons = document.querySelectorAll(".close");
 
     function closeModal() {
-        modal.style.display = "none";
-        modalGeo.style.display = "none";
-        modalCulture.style.display = "none";
-
-        document.querySelector(".content-zag").style.display = "none";
-        document.querySelector(".content-geo").style.display = "none";
-        document.querySelector(".content-culture").style.display = "none";
+        document.querySelectorAll(".modal").forEach(function(modal) {
+            modal.classList.remove("visible");
+        });
+        document.querySelectorAll(".content-zag, .content-geo, .content-culture").forEach(function(content) {
+            content.classList.remove("visible");
+        });
     }
 
-    for (var i = 0; i < span.length; i++) {
-        span[i].onclick = closeModal;
-    }
+    closeButtons.forEach(function(button) {
+        button.onclick = closeModal;
+    });
 
     window.onclick = function(event) {
         if (event.target.classList.contains("modal")) {
             closeModal();
         }
-    }
+    };
 });
