@@ -10,6 +10,27 @@
     font-family: "Oswaldh3";
     src: url("./fonti/Oswald-Bold.ttf");
 }
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+@keyframes slidein-widget {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+iframe {
+    display: flex;
+    justify-content: content;
+    align-items: center;
+}
 body {
     background-color: black;
 }
@@ -36,6 +57,7 @@ h1 {
     min-height: 100vh;
     overflow-y: auto;
     display: flex;
+    padding-right: -50px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -95,6 +117,8 @@ img {
     margin: 0;
     font-family: "Caviar";
     color: white;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 .box {
     display: flex;
@@ -121,6 +145,8 @@ img {
     position: relative;
     float: left;
     opacity: 0.85;
+    animation-duration: 3s;
+    animation-name: slidein-widget;
 }
 .widget:hover {
     width: 310px;
